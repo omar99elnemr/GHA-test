@@ -1,0 +1,20 @@
+name: My First Workflow
+
+on: 
+  push:
+    branches:
+    - main
+
+jobs:
+  My_first_Job:
+    runs-on: ubuntu-latest
+
+    steps:
+    -  name: First Command
+       run: echo "Hello From Github Actions !"
+
+    -  name: Checkout Repo
+       uses: actions/checkout@v4.2.2
+
+    -  name: List Repository's files
+       run: ls -la
