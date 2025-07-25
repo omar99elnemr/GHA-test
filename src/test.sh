@@ -2,7 +2,7 @@
 
 # Run the Node.js app and check its output
 
-output=$(node ./app.js)
+output=$(node src/app.js)
 
 expected="The sum of 7 and 3 is: 10"
 
