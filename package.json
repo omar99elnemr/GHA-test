@@ -3,7 +3,7 @@
   "name": "simple-addition-app",
   "version": "1.0.0",
   "description": "A simple Node.js app that adds two numbers and logs the result",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "bash src/test.sh"
   },
