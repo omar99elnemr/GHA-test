@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: checkout code
-        uses: actions/checkout@4.22
+        uses: actions/checkout@4.2.2
 
       - name: Run tests
         run: npm test

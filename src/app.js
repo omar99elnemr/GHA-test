@@ -4,5 +4,5 @@ function add(a, b) {
   return a + b;
 }
 
-const result = add(2, 3);
-console.log(`The sum of 2 and 3 is: ${result}`);
+const result = add(7, 3);
+console.log(`The sum of 7 and 3 is: ${result}`);
