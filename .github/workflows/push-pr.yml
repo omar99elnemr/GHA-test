@@ -1,17 +1,18 @@
 name: Push PR
 
-on: push
-  branches:
-    -main
-    -release/**
-  paths:
+on:
+  push:
+    branches:
+    - main
+    - release/**
+    paths:
     - src/**
 
-on: pull_request
-  branches:
-    -main
-    -release/**
-    
+  pull_request:
+    branches:
+    - main
+    - release/**
+
 jobs:
   test:
     runs-on: ubuntu-latest
